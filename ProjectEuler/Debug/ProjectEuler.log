@@ -1,18 +1,7 @@
-﻿Build started 27/03/2015 21:53:02.
-     1>Project "C:\Users\User\Documents\GitHub\ProjectEuler\ProjectEuler\ProjectEuler.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ProjectEuler.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Page1.cpp
-         Page1.cpp
-     1>c:\users\user\documents\github\projecteuler\projecteuler\page1.cpp(1): warning C4627: '#include "AllProblems.h"': skipped when looking for precompiled header use
-                 Add directive to 'stdafx.h' or rebuild precompiled header
-     1>c:\users\user\documents\github\projecteuler\projecteuler\page1.cpp(47): warning C4244: 'return' : conversion from 'unsigned __int64' to 'int', possible loss of data
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\GitHub\ProjectEuler\Debug\ProjectEuler.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Documents\GitHub\ProjectEuler\Debug\ProjectEuler.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\GitHub\ProjectEuler\Debug\ProjectEuler.lib" /MACHINE:X86 Debug\Page1.obj
-         Debug\ProjectEuler.obj
-         Debug\stdafx.obj
-         ProjectEuler.vcxproj -> C:\Users\User\Documents\GitHub\ProjectEuler\Debug\ProjectEuler.exe
-     1>Done Building Project "C:\Users\User\Documents\GitHub\ProjectEuler\ProjectEuler\ProjectEuler.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:01.43
+﻿  ProjectEuler.cpp
+  Page1.cpp
+d:\github\projecteuler\projecteuler\page1.cpp(1): warning C4627: '#include "AllProblems.h"': skipped when looking for precompiled header use
+  d:\github\projecteuler\projecteuler\page1.cpp(1): note: Add directive to 'stdafx.h' or rebuild precompiled header
+d:\github\projecteuler\projecteuler\page1.cpp(49): warning C4244: 'return': conversion from 'unsigned __int64' to 'int', possible loss of data
+  Generating Code...
+  ProjectEuler.vcxproj -> D:\GitHub\ProjectEuler\Debug\ProjectEuler.exe
